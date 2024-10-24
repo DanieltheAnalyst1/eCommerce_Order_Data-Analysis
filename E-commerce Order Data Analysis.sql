@@ -1,6 +1,3 @@
--- I write down statements in my SQL code to help anyone who sees the code to easily understand what I did.
-
--- Check the table
 select * from list_of_orders;
 
 -- Total number of orders
@@ -64,4 +61,3 @@ GROUP BY
 ORDER BY 
     total_orders DESC
 LIMIT 10;
-
